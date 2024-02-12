@@ -71,6 +71,10 @@ function extractData(input) {
   return data;
 }
 
+const extractOnClick = () => {
+
+}
+
 const inputBox = document.querySelector("textarea"),
   checkBtn = document.querySelector(".check"),
   static = document.querySelector(".static");
@@ -97,7 +101,7 @@ checkBtn.onclick = () => {
       output.appendChild(p);
     }
   });
-
+};
 static.onclick = () => {
   const randomStaticText = staticText;
   inputBox.value = randomStaticText;
