@@ -1,9 +1,9 @@
-body { 
+body {
   background: #fff;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
-html, 
+html,
 body {
   height: 100%;
 }
@@ -46,15 +46,11 @@ body .container {
   border: none;
 }
 
-
-
 .input {
   background: #eee;
   padding: 20px;
-
 }
-.input
-.output {
+.input .output {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 textarea {
@@ -73,8 +69,6 @@ textarea {
   background: #fff;
 }
 
-.output_text {
-}
 .output_div {
   overflow: auto;
   height: 100%;
@@ -87,7 +81,6 @@ textarea {
   background: #000;
   color: #fff;
   border: none;
-
 }
 
 h3 {
