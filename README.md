@@ -16,4 +16,5 @@ To use this project, run the index.html page in the browser.
   - Ashimwe Reponse
   - Muzira Kellia
   - Benitha Uwituze Rutagengwa
-  - Asingizwe Collette 
+  - Asingizwe Collette
+  - Niteka Roxanne 
