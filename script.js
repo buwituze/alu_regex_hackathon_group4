@@ -24,3 +24,30 @@ function extractData(input) {
 
   return data;
 }
+
+const inputBox = document.querySelector("textarea"),
+  checkBtn = document.querySelector(".check"),
+  static = document.querySelector(".static");
+  output = document.querySelector(".output_text");
+
+checkBtn.onclick = () => {
+  const data = extractData(inputBox.value);
+  output.innerHTML = "";
+
+  Object.entries(data).forEach(([dataType, dataArray]) => {
+    const title = document.createElement("h3");
+    const list = document.createElement("ol");
+    title.innerText = dataType;
+    output.appendChild(title);
+
+    dataArray.forEach((match) => {
+      list.innerHTML += `<li>${match}</li>`
+    });
+    output.appendChild(list)
+
+    if (dataArray.length == 0) {
+      const p = document.createElement("p");
+      p.innerText = "Nothing found";
+      output.appendChild(p);
+    }
+  });
