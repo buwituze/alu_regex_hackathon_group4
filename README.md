@@ -12,9 +12,9 @@ To use this project, run the index.html page in the browser.
 - Enter text containing various data types in the textbox provided.
 - The script will extract and display the relevant information based on the provided input and display it on the output area.
 
-  ## Contributors
-  - Ashimwe Reponse
-  - Muzira Kellia
-  - Benitha Uwituze Rutagengwa
-  - Asingizwe Collette
-  - Niteka Roxanne 
+## Contributors
+- Ashimwe Reponse
+- Muzira Kellia
+- Benitha Uwituze Rutagengwa
+- Asingizwe Collette
+- Niteka Roxanne 
