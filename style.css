@@ -1,0 +1,95 @@
+body {
+  background: #fff;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body .container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.input,
+.output {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-div {
+  display: flex;
+  gap: 10px;
+  padding: 20px 15px;
+}
+
+.buttons-div button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+}
+
+
+
+.input {
+  background: #eee;
+  padding: 20px;
+
+}
+.input
+.output {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+textarea {
+  background: #fff;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: inherit;
+}
+
+.output {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px 30px;
+  background: #fff;
+}
+
+.output_text {
+}
+.output_div {
+  overflow: auto;
+  height: 100%;
+}
+
+.check {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+
+}
+
+h3 {
+  text-decoration: underline;
+}
