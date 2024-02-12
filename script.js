@@ -51,3 +51,9 @@ checkBtn.onclick = () => {
       output.appendChild(p);
     }
   });
+
+static.onclick = () => {
+  const randomStaticText = staticText;
+  inputBox.value = randomStaticText;
+
+}
