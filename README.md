@@ -10,7 +10,10 @@ The Regular Expressions Hackathon project is designed to leverage the capabiliti
 To use this project, run the index.html page in the browser.
 
 - Enter text containing various data types in the textbox provided.
-- The script will extract and display the relevant information based on the provided input and diplay it on the output area.
+- The script will extract and display the relevant information based on the provided input and display it on the output area.
 
   ## Contributors
-  - 
+  - Ashimwe Reponse
+  - Muzira Kellia
+  - Benitha Uwituze Rutagengwa
+  - Asingizwe Collette 
